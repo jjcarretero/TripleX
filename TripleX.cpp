@@ -176,7 +176,7 @@ int main()
 
         if (bLevelComplete)
         {
-            LevelDifficulty + rand() % 3 + 1;
+            LevelDifficulty += rand() % 3 + 1;
             ++PhaseCounter;
         }
         else
